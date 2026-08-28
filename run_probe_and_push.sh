@@ -9,7 +9,7 @@ REPORTS_DIR="$PROBE_DIR/reports"
 TODAY=$(date -u +%Y-%m-%d)
 LOG="/var/log/free-llm-probe.log"
 
-echo "=== $(date -u) ===" >> "$LOG"
+echo "=== $(date -u -Iseconds) ===" >> "$LOG"
 echo "Starting probe run..." >> "$LOG"
 
 cd "$PROBE_DIR"
@@ -54,7 +54,7 @@ fi
 
 # Commit and push
 git add -A
-git commit -m "Health update — ${TODAY} $(date -u +%H:00 UTC)" >> "$LOG" 2>&1 || true
+git commit -m "Health update — ${TODAY} $(date -u +%H):00 UTC" >> "$LOG" 2>&1 || true
 git push origin main >> "$LOG" 2>&1
 
 echo "Push complete" >> "$LOG"
