@@ -1,0 +1,14 @@
+# Database (too large, regenerable)
+probe_data.db
+probe_data.db-journal
+
+# Temp
+repo-temp/
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
