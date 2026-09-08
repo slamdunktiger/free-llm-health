@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-08T06:00:15.933459+00:00",
+  "generated_at": "2026-09-08T07:00:16.712391+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 114.4,
+      "latency_ms": 85.12,
       "models_found": 0,
-      "last_probe": "2026-09-08T06:00:05.451178+00:00",
+      "last_probe": "2026-09-08T07:00:06.428997+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 410,
-      "latency_ms": 212.09,
+      "latency_ms": 253.67,
       "models_found": 0,
-      "last_probe": "2026-09-08T06:00:08.995533+00:00",
+      "last_probe": "2026-09-08T07:00:09.685989+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 410: Gone"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 61.36,
+      "latency_ms": 64.48,
       "models_found": 0,
-      "last_probe": "2026-09-08T06:00:03.863376+00:00",
+      "last_probe": "2026-09-08T07:00:04.759296+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 109.89,
+      "latency_ms": 121.0,
       "models_found": 137,
-      "last_probe": "2026-09-08T06:00:10.718087+00:00",
+      "last_probe": "2026-09-08T07:00:11.454201+00:00",
       "models": [
         "Qwen/Qwen3.8-27B",
         "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
@@ -145,36 +145,36 @@
         "meta-llama/Llama-Guard-4-12B",
         "zai-org/GLM-5",
         "alpindale/WizardLM-2-8x22B",
-        "zai-org/GLM-5.1-FP8",
-        "Qwen/Qwen3-VL-235B-A22B-Instruct",
         "zai-org/GLM-5.1",
         "CohereLabs/c4ai-command-r-08-2024",
+        "Qwen/Qwen3-VL-235B-A22B-Instruct",
         "zai-org/GLM-4-32B-0414",
-        "zai-org/GLM-4.5V-FP8",
+        "zai-org/GLM-5.1-FP8",
         "CohereLabs/aya-expanse-32b",
         "MiniMaxAI/MiniMax-M1-80k",
-        "zai-org/GLM-4.5V",
+        "zai-org/GLM-4.5V-FP8",
         "CohereLabs/c4ai-command-r7b-12-2024",
         "moonshotai/Kimi-K2-Instruct-0905",
-        "zai-org/GLM-4.6V-Flash",
+        "zai-org/GLM-4.5V",
         "CohereLabs/c4ai-command-a-03-2025",
         "deepseek-ai/DeepSeek-V3.2-Exp",
-        "zai-org/GLM-4.6V",
+        "zai-org/GLM-4.6V-Flash",
         "CohereLabs/command-a-reasoning-08-2025",
         "MiniMaxAI/MiniMax-M2",
-        "zai-org/GLM-4.6V-FP8",
+        "zai-org/GLM-4.6V",
         "CohereLabs/command-a-translate-08-2025",
         "MiniMaxAI/MiniMax-M2.1",
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "zai-org/GLM-4.6V-FP8",
         "CohereLabs/tiny-aya-global",
         "MiniMaxAI/MiniMax-M2.5",
-        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
         "prism-ml/Ternary-Bonsai-27B-AWQ-4bit",
         "CohereLabs/tiny-aya-water",
-        "Qwen/Qwen3-VL-235B-A22B-Thinking",
+        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
         "CohereLabs/tiny-aya-earth",
-        "zai-org/AutoGLM-Phone-9B-Multilingual",
-        "CohereLabs/tiny-aya-fire"
+        "Qwen/Qwen3-VL-235B-A22B-Thinking",
+        "CohereLabs/tiny-aya-fire",
+        "zai-org/AutoGLM-Phone-9B-Multilingual"
       ],
       "is_live": true,
       "error": null
@@ -182,9 +182,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 188.45,
+      "latency_ms": 189.06,
       "models_found": 0,
-      "last_probe": "2026-09-08T06:00:12.488390+00:00",
+      "last_probe": "2026-09-08T07:00:13.334547+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -192,9 +192,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 69.2,
+      "latency_ms": 69.36,
       "models_found": 81,
-      "last_probe": "2026-09-08T06:00:07.094460+00:00",
+      "last_probe": "2026-09-08T07:00:08.101337+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -284,9 +284,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 49.78,
+      "latency_ms": 46.37,
       "models_found": 1,
-      "last_probe": "2026-09-08T06:00:14.358966+00:00",
+      "last_probe": "2026-09-08T07:00:15.042510+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -296,9 +296,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 72.62,
+      "latency_ms": 83.6,
       "models_found": 16,
-      "last_probe": "2026-09-08T06:00:02.246273+00:00",
+      "last_probe": "2026-09-08T07:00:03.149444+00:00",
       "models": [
         "inclusionai/ling-3.0-flash-sante:free",
         "inclusionai/ling-3.0-flash-fin:free",
