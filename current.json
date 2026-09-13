@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-13T07:00:16.190095+00:00",
+  "generated_at": "2026-09-13T08:00:17.041578+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 83.8,
+      "latency_ms": 81.84,
       "models_found": 0,
-      "last_probe": "2026-09-13T07:00:06.065505+00:00",
+      "last_probe": "2026-09-13T08:00:05.829240+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 410,
-      "latency_ms": 209.39,
+      "latency_ms": 216.42,
       "models_found": 0,
-      "last_probe": "2026-09-13T07:00:09.271038+00:00",
+      "last_probe": "2026-09-13T08:00:09.342629+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 410: Gone"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 57.39,
+      "latency_ms": 63.79,
       "models_found": 0,
-      "last_probe": "2026-09-13T07:00:04.488722+00:00",
+      "last_probe": "2026-09-13T08:00:04.219276+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 114.39,
+      "latency_ms": 159.98,
       "models_found": 142,
-      "last_probe": "2026-09-13T07:00:10.998096+00:00",
+      "last_probe": "2026-09-13T08:00:11.083322+00:00",
       "models": [
         "deepseek-ai/DeepSeek-V4.1-Flash",
         "Qwen/Qwen3.8-27B",
@@ -62,13 +62,13 @@
         "inclusionAI/Ling-3.0-flash",
         "deepseek-ai/DeepSeek-V4-Pro-0813",
         "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "Qwen/Qwen2.5-7B-Instruct",
         "ibm-granite/granite-4.2-3b",
         "ibm-granite/granite-4.2-8b",
         "ibm-granite/granite-4.2-30b",
         "meta-llama/Llama-3.3-70B-Instruct",
-        "deepseek-ai/DeepSeek-R1",
+        "Qwen/Qwen2.5-7B-Instruct",
         "thinkingmachines/Inkling",
+        "deepseek-ai/DeepSeek-R1",
         "MiniMaxAI/MiniMax-M3",
         "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
         "speakleash/Bielik-11B-v3.0-Instruct",
@@ -105,10 +105,10 @@
         "Qwen/Qwen3-235B-A22B-Instruct-2507",
         "Qwen/Qwen2.5-Coder-3B-Instruct",
         "deepseek-ai/DeepSeek-V3.1",
-        "moonshotai/Kimi-K2.6",
+        "CohereLabs/command-a-plus-05-2026-w4a4",
         "Qwen/Qwen3-235B-A22B",
         "Qwen/Qwen3-Next-80B-A3B-Instruct",
-        "CohereLabs/command-a-plus-05-2026-w4a4",
+        "moonshotai/Kimi-K2.6",
         "deepseek-ai/DeepSeek-V3.2",
         "zai-org/GLM-5.3-BF16",
         "XiaomiMiMo/MiMo-V2.5-Pro",
@@ -187,9 +187,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 193.59,
+      "latency_ms": 205.65,
       "models_found": 0,
-      "last_probe": "2026-09-13T07:00:12.737699+00:00",
+      "last_probe": "2026-09-13T08:00:12.789975+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -197,9 +197,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 94.59,
+      "latency_ms": 76.31,
       "models_found": 82,
-      "last_probe": "2026-09-13T07:00:07.659344+00:00",
+      "last_probe": "2026-09-13T08:00:07.561419+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -290,9 +290,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 45.73,
+      "latency_ms": 47.68,
       "models_found": 1,
-      "last_probe": "2026-09-13T07:00:14.550281+00:00",
+      "last_probe": "2026-09-13T08:00:14.635288+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -302,9 +302,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 62.09,
+      "latency_ms": 79.5,
       "models_found": 19,
-      "last_probe": "2026-09-13T07:00:02.860565+00:00",
+      "last_probe": "2026-09-13T08:00:02.569737+00:00",
       "models": [
         "inclusionai/ling-3.0-flash-vl:free",
         "nex-agi/nex-n2.5-mini:free",
