@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-25T04:00:16.456149+00:00",
+  "generated_at": "2026-09-25T05:00:17.286538+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 91.97,
+      "latency_ms": 99.61,
       "models_found": 0,
-      "last_probe": "2026-09-25T04:00:05.938501+00:00",
+      "last_probe": "2026-09-25T05:00:06.585058+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 213.44,
+      "latency_ms": 225.88,
       "models_found": 0,
-      "last_probe": "2026-09-25T04:00:09.422672+00:00",
+      "last_probe": "2026-09-25T05:00:10.244888+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 66.75,
+      "latency_ms": 68.0,
       "models_found": 0,
-      "last_probe": "2026-09-25T04:00:04.356552+00:00",
+      "last_probe": "2026-09-25T05:00:05.001740+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 117.93,
-      "models_found": 138,
-      "last_probe": "2026-09-25T04:00:11.188715+00:00",
+      "latency_ms": 109.49,
+      "models_found": 140,
+      "last_probe": "2026-09-25T05:00:11.994806+00:00",
       "models": [
         "deepseek-ai/DeepSeek-V4.1-Flash",
         "Qwen/Qwen3.8-27B",
@@ -119,6 +119,7 @@
         "deepseek-ai/DeepSeek-V3-0324",
         "stepfun-ai/Step-3.5-Flash",
         "ibm-granite/granite-4.2-3b",
+        "ibm-granite/granite-4.2-30b",
         "swiss-ai/Apertus-8B-Instruct-2509",
         "Qwen/Qwen2.5-Coder-3B-Instruct",
         "Qwen/Qwen2.5-72B-Instruct",
@@ -139,11 +140,11 @@
         "Qwen/Qwen3-VL-235B-A22B-Thinking",
         "aisingapore/Gemma-SEA-LION-v4-27B-IT",
         "CohereLabs/aya-expanse-32b",
-        "zai-org/GLM-4.6-FP8",
+        "zai-org/GLM-4.5",
         "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
         "swiss-ai/Apertus-70B-Instruct-2509",
         "CohereLabs/c4ai-command-r7b-12-2024",
-        "zai-org/GLM-4.6",
+        "zai-org/GLM-4.6-FP8",
         "zai-org/GLM-4.5V",
         "aisingapore/Qwen-SEA-LION-v4-32B-IT",
         "CohereLabs/c4ai-command-a-03-2025",
@@ -171,9 +172,10 @@
         "zai-org/GLM-4.5V-FP8",
         "deepseek-ai/DeepSeek-V3.1-Terminus",
         "moonshotai/Kimi-K2-Instruct",
-        "zai-org/GLM-4.7",
         "zai-org/GLM-4.6V",
+        "zai-org/GLM-4.6",
         "MiniMaxAI/MiniMax-M2",
+        "zai-org/GLM-4.7",
         "zai-org/GLM-4.6V-FP8",
         "MiniMaxAI/MiniMax-M2.1"
       ],
@@ -183,9 +185,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 196.77,
+      "latency_ms": 190.48,
       "models_found": 0,
-      "last_probe": "2026-09-25T04:00:12.838520+00:00",
+      "last_probe": "2026-09-25T05:00:13.761247+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -193,9 +195,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 72.98,
+      "latency_ms": 81.8,
       "models_found": 82,
-      "last_probe": "2026-09-25T04:00:07.552559+00:00",
+      "last_probe": "2026-09-25T05:00:08.422499+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -286,9 +288,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 76.92,
+      "latency_ms": 57.47,
       "models_found": 1,
-      "last_probe": "2026-09-25T04:00:14.669324+00:00",
+      "last_probe": "2026-09-25T05:00:15.619048+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -298,9 +300,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 83.48,
+      "latency_ms": 162.9,
       "models_found": 20,
-      "last_probe": "2026-09-25T04:00:02.746939+00:00",
+      "last_probe": "2026-09-25T05:00:03.284086+00:00",
       "models": [
         "nex-agi/nex-n2.5-mini:free",
         "nex-agi/nex-n2.5-pro:free",
@@ -330,6 +332,6 @@
   "summary": {
     "total_providers": 8,
     "live_providers": 4,
-    "total_models": 241
+    "total_models": 243
   }
 }
