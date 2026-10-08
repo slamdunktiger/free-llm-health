@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-08T03:00:15.902294+00:00",
+  "generated_at": "2026-10-08T04:00:15.757338+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 94.07,
+      "latency_ms": 89.09,
       "models_found": 0,
-      "last_probe": "2026-10-08T03:00:06.034859+00:00",
+      "last_probe": "2026-10-08T04:00:05.886253+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 223.32,
+      "latency_ms": 214.99,
       "models_found": 0,
-      "last_probe": "2026-10-08T03:00:09.233706+00:00",
+      "last_probe": "2026-10-08T04:00:09.081273+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 65.49,
+      "latency_ms": 68.3,
       "models_found": 0,
-      "last_probe": "2026-10-08T03:00:04.359411+00:00",
+      "last_probe": "2026-10-08T04:00:04.302787+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 100.39,
-      "models_found": 138,
-      "last_probe": "2026-10-08T03:00:10.973700+00:00",
+      "latency_ms": 114.47,
+      "models_found": 137,
+      "last_probe": "2026-10-08T04:00:10.811207+00:00",
       "models": [
         "Qwen/Qwen3.8-27B",
         "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -90,9 +90,8 @@
         "Qwen/Qwen3-Next-80B-A3B-Instruct",
         "deepseek-ai/DeepSeek-V3-0324",
         "XiaomiMiMo/MiMo-V2.5-Pro",
-        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-        "inclusionAI/Ling-3.0-flash-Fin",
         "tencent/Hy3",
+        "inclusionAI/Ling-3.0-flash-Fin",
         "Qwen/Qwen3-14B",
         "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
         "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
@@ -105,12 +104,12 @@
         "Qwen/Qwen3.6-27B",
         "moonshotai/Kimi-K2.5",
         "moonshotai/Kimi-K2.6",
-        "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+        "MiniMaxAI/MiniMax-M2.7",
         "thinkingmachines/Inkling-Small",
         "XiaomiMiMo/MiMo-V2.5",
-        "MiniMaxAI/MiniMax-M2.7",
-        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "Qwen/Qwen3-Coder-480B-A35B-Instruct",
         "ibm-granite/granite-4.2-30b",
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
         "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
         "Qwen/Qwen3-VL-235B-A22B-Thinking",
@@ -183,9 +182,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 190.7,
+      "latency_ms": 198.79,
       "models_found": 0,
-      "last_probe": "2026-10-08T03:00:12.593166+00:00",
+      "last_probe": "2026-10-08T04:00:12.441312+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -193,9 +192,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 70.72,
+      "latency_ms": 73.11,
       "models_found": 80,
-      "last_probe": "2026-10-08T03:00:07.645019+00:00",
+      "last_probe": "2026-10-08T04:00:07.483702+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -284,9 +283,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 52.36,
+      "latency_ms": 56.35,
       "models_found": 1,
-      "last_probe": "2026-10-08T03:00:14.299932+00:00",
+      "last_probe": "2026-10-08T04:00:14.150129+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -296,9 +295,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 81.62,
+      "latency_ms": 124.05,
       "models_found": 16,
-      "last_probe": "2026-10-08T03:00:02.728597+00:00",
+      "last_probe": "2026-10-08T04:00:02.643892+00:00",
       "models": [
         "apodex/apodex-1.1-mini:free",
         "inclusionai/ling-3.0-flash-sante:free",
@@ -324,6 +323,6 @@
   "summary": {
     "total_providers": 8,
     "live_providers": 4,
-    "total_models": 235
+    "total_models": 234
   }
 }
