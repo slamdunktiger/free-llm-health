@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-29T20:00:15.631070+00:00",
+  "generated_at": "2026-10-29T21:00:15.840288+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
-      "status_code": 429,
-      "latency_ms": 30.01,
+      "status_code": 403,
+      "latency_ms": 122.71,
       "models_found": 0,
-      "last_probe": "2026-10-29T20:00:05.715641+00:00",
+      "last_probe": "2026-10-29T21:00:05.741260+00:00",
       "models": [],
-      "is_live": true,
-      "error": "HTTP Error 429: Too Many Requests"
+      "is_live": false,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 203.97,
+      "latency_ms": 234.21,
       "models_found": 0,
-      "last_probe": "2026-10-29T20:00:08.870096+00:00",
+      "last_probe": "2026-10-29T21:00:09.006978+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 84.14,
+      "latency_ms": 109.27,
       "models_found": 0,
-      "last_probe": "2026-10-29T20:00:04.107580+00:00",
+      "last_probe": "2026-10-29T21:00:04.120153+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 105.31,
+      "latency_ms": 120.76,
       "models_found": 137,
-      "last_probe": "2026-10-29T20:00:10.633729+00:00",
+      "last_probe": "2026-10-29T21:00:10.754262+00:00",
       "models": [
         "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "MiniMaxAI/MiniMax-M3.1-Flash",
@@ -182,9 +182,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 206.05,
+      "latency_ms": 219.89,
       "models_found": 0,
-      "last_probe": "2026-10-29T20:00:12.270258+00:00",
+      "last_probe": "2026-10-29T21:00:12.404576+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -192,9 +192,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 73.37,
+      "latency_ms": 73.55,
       "models_found": 85,
-      "last_probe": "2026-10-29T20:00:07.270491+00:00",
+      "last_probe": "2026-10-29T21:00:07.383077+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -288,9 +288,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 59.39,
+      "latency_ms": 86.84,
       "models_found": 1,
-      "last_probe": "2026-10-29T20:00:13.994966+00:00",
+      "last_probe": "2026-10-29T21:00:14.182056+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -300,9 +300,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 87.66,
+      "latency_ms": 112.57,
       "models_found": 16,
-      "last_probe": "2026-10-29T20:00:02.447040+00:00",
+      "last_probe": "2026-10-29T21:00:02.469269+00:00",
       "models": [
         "recursive/flint-v1.0:free",
         "xingchen-agi/xing4.0-29b-a4b:free",
@@ -327,7 +327,7 @@
   ],
   "summary": {
     "total_providers": 8,
-    "live_providers": 5,
+    "live_providers": 4,
     "total_models": 239
   }
 }
