@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T00:00:15.946136+00:00",
+  "generated_at": "2026-11-06T01:00:16.786110+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 429,
-      "latency_ms": 29.64,
+      "latency_ms": 26.84,
       "models_found": 0,
-      "last_probe": "2026-11-06T00:00:05.773951+00:00",
+      "last_probe": "2026-11-06T01:00:06.139779+00:00",
       "models": [],
       "is_live": true,
       "error": "HTTP Error 429: Too Many Requests"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 208.19,
+      "latency_ms": 223.76,
       "models_found": 0,
-      "last_probe": "2026-11-06T00:00:08.946795+00:00",
+      "last_probe": "2026-11-06T01:00:09.266969+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 68.15,
+      "latency_ms": 68.01,
       "models_found": 0,
-      "last_probe": "2026-11-06T00:00:04.168479+00:00",
+      "last_probe": "2026-11-06T01:00:04.557071+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 113.2,
-      "models_found": 127,
-      "last_probe": "2026-11-06T00:00:10.673012+00:00",
+      "latency_ms": 107.09,
+      "models_found": 126,
+      "last_probe": "2026-11-06T01:00:11.006827+00:00",
       "models": [
         "Qwen/Qwen3.8-27B",
         "deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -61,8 +61,8 @@
         "XiaomiMiMo/MiMo-V2.6-Pro-RL",
         "deepseek-ai/DeepSeek-V4-Flash",
         "CohereLabs/tiny-aya-global",
-        "deepseek-ai/DeepSeek-R1",
         "google/gemma-3-4b-it",
+        "deepseek-ai/DeepSeek-R1",
         "ibm-granite/granite-4.2-3b",
         "inclusionAI/Ling-3.1-flash",
         "zai-org/GLM-5.2",
@@ -80,9 +80,8 @@
         "google/gemma-3-12b-it",
         "thinkingmachines/Inkling-Small",
         "inclusionAI/Ling-3.0-flash-Fin",
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-        "Qwen/Qwen2.5-72B-Instruct",
         "MiniMaxAI/MiniMax-M3",
+        "Qwen/Qwen2.5-72B-Instruct",
         "moonshotai/Kimi-K2.7-Code",
         "microsoft/phi-4",
         "thinkingmachines/Inkling",
@@ -172,9 +171,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 189.68,
+      "latency_ms": 186.3,
       "models_found": 0,
-      "last_probe": "2026-11-06T00:00:12.385151+00:00",
+      "last_probe": "2026-11-06T01:00:12.627747+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -182,9 +181,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 74.67,
+      "latency_ms": 74.11,
       "models_found": 84,
-      "last_probe": "2026-11-06T00:00:07.334703+00:00",
+      "last_probe": "2026-11-06T01:00:07.677759+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -277,9 +276,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 66.04,
+      "latency_ms": 69.13,
       "models_found": 1,
-      "last_probe": "2026-11-06T00:00:14.113922+00:00",
+      "last_probe": "2026-11-06T01:00:14.329865+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -289,9 +288,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 164.98,
+      "latency_ms": 149.94,
       "models_found": 12,
-      "last_probe": "2026-11-06T00:00:02.435968+00:00",
+      "last_probe": "2026-11-06T01:00:02.866019+00:00",
       "models": [
         "recursive/flint-v1.0:free",
         "xingchen-agi/xing4.0-29b-a4b:free",
@@ -313,6 +312,6 @@
   "summary": {
     "total_providers": 8,
     "live_providers": 5,
-    "total_models": 224
+    "total_models": 223
   }
 }
