@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T02:00:15.743004+00:00",
+  "generated_at": "2026-11-11T03:00:15.843009+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 102.07,
+      "latency_ms": 203.37,
       "models_found": 0,
-      "last_probe": "2026-11-11T02:00:05.681859+00:00",
+      "last_probe": "2026-11-11T03:00:05.810511+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 214.01,
+      "latency_ms": 211.93,
       "models_found": 0,
-      "last_probe": "2026-11-11T02:00:08.891776+00:00",
+      "last_probe": "2026-11-11T03:00:09.127336+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 75.4,
+      "latency_ms": 84.44,
       "models_found": 0,
-      "last_probe": "2026-11-11T02:00:04.084708+00:00",
+      "last_probe": "2026-11-11T03:00:04.211448+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 109.33,
+      "latency_ms": 102.68,
       "models_found": 127,
-      "last_probe": "2026-11-11T02:00:10.624166+00:00",
+      "last_probe": "2026-11-11T03:00:10.854524+00:00",
       "models": [
         "Qwen/Qwen3.8-27B",
         "deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -53,8 +53,8 @@
         "openai/gpt-oss-20b",
         "meta-models/Muse-Glimmer-30B",
         "XiaomiMiMo/MiMo-V2.6-Pro-RL",
-        "google/gemma-4-26B-A4B-it",
         "thinkingmachines/Inkling-Small",
+        "google/gemma-4-26B-A4B-it",
         "google/gemma-3-4b-it",
         "deepseek-ai/DeepSeek-V4-Flash",
         "reflection/Beam-1.0-501B-A23B",
@@ -78,10 +78,10 @@
         "swiss-ai/Apertus-v1.5-70B",
         "zai-org/GLM-4.7-Flash",
         "ibm-granite/granite-4.2-3b",
-        "ibm-granite/granite-4.2-8b",
         "deepseek-ai/DeepSeek-V4-Flash-0731",
         "deepseek-ai/DeepSeek-V4-Pro-0813",
         "microsoft/phi-4",
+        "ibm-granite/granite-4.2-8b",
         "moonshotai/Kimi-K2.5",
         "meta-llama/Llama-4-Scout-17B-16E-Instruct",
         "Qwen/Qwen3-14B",
@@ -172,9 +172,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 198.93,
+      "latency_ms": 190.1,
       "models_found": 0,
-      "last_probe": "2026-11-11T02:00:12.255608+00:00",
+      "last_probe": "2026-11-11T03:00:12.474470+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -182,9 +182,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 74.2,
+      "latency_ms": 70.24,
       "models_found": 84,
-      "last_probe": "2026-11-11T02:00:07.299350+00:00",
+      "last_probe": "2026-11-11T03:00:07.529675+00:00",
       "models": [
         "01-ai/yi-large",
         "adept/fuyu-8b",
@@ -277,9 +277,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 73.57,
+      "latency_ms": 57.78,
       "models_found": 1,
-      "last_probe": "2026-11-11T02:00:13.998199+00:00",
+      "last_probe": "2026-11-11T03:00:14.179533+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -289,9 +289,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 134.28,
+      "latency_ms": 115.96,
       "models_found": 12,
-      "last_probe": "2026-11-11T02:00:02.418857+00:00",
+      "last_probe": "2026-11-11T03:00:02.576499+00:00",
       "models": [
         "thinkingmachines/inkling-2-small:free",
         "liquid/lfm-3-1.7b:free",
