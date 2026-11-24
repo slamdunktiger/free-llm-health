@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-24T20:00:16.796546+00:00",
+  "generated_at": "2026-11-24T21:00:16.736448+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 123.08,
+      "latency_ms": 98.19,
       "models_found": 0,
-      "last_probe": "2026-11-24T20:00:05.646887+00:00",
+      "last_probe": "2026-11-24T21:00:06.532283+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 238.23,
+      "latency_ms": 220.26,
       "models_found": 0,
-      "last_probe": "2026-11-24T20:00:08.902999+00:00",
+      "last_probe": "2026-11-24T21:00:09.747270+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 72.43,
+      "latency_ms": 94.69,
       "models_found": 0,
-      "last_probe": "2026-11-24T20:00:04.052794+00:00",
+      "last_probe": "2026-11-24T21:00:04.913381+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 120.78,
+      "latency_ms": 124.42,
       "models_found": 102,
-      "last_probe": "2026-11-24T20:00:10.656150+00:00",
+      "last_probe": "2026-11-24T21:00:11.496296+00:00",
       "models": [
         "thinkingmachines/Inkling-2-Mini",
         "tencent/Hy4-flash",
@@ -54,16 +54,16 @@
         "thinkingmachines/Inkling",
         "google/gemma-4-26B-A4B-it",
         "deepseek-ai/DeepSeek-V4.1-Flash",
-        "openai/gpt-oss-120b",
+        "mistralai/Mistral-Large-4-1T-A52B",
         "google/gemma-4-31B-it",
         "zai-org/GLM-5.3",
-        "mistralai/Mistral-Large-4-1T-A52B",
+        "openai/gpt-oss-120b",
         "deepseek-ai/DeepSeek-V4-Pro",
         "meta-llama/Llama-3.1-8B-Instruct",
-        "openai/gpt-oss-20b",
         "google/gemma-3-4b-it",
-        "Qwen/Qwen3.5-9B",
+        "openai/gpt-oss-20b",
         "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "Qwen/Qwen3.5-9B",
         "meta-models/Muse-Glimmer-30B",
         "zai-org/GLM-5.2",
         "MiniMaxAI/MiniMax-M3.1-Flash",
@@ -72,9 +72,9 @@
         "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
         "Qwen/Qwen3.8-2.4T-A95B",
         "XiaomiMiMo/MiMo-V2.6-Pro-RL",
-        "zai-org/GLM-4.7-Flash",
         "Qwen/Qwen3.6-27B",
         "Qwen/Qwen3-VL-8B-Instruct",
+        "zai-org/GLM-4.7-Flash",
         "Qwen/Qwen3-Coder-Next",
         "thinkingmachines/Inkling-Small",
         "deepseek-ai/DeepSeek-V4-Flash",
@@ -90,6 +90,7 @@
         "deepseek-ai/DeepSeek-V3.2",
         "google/gemma-3-27b-it",
         "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+        "Qwen/Qwen3-32B",
         "Qwen/Qwen3-Next-80B-A3B-Instruct",
         "MiniMaxAI/MiniMax-M2.5",
         "ibm-granite/granite-4.2-8b",
@@ -105,7 +106,6 @@
         "moonshotai/Kimi-K2.6",
         "MiniMaxAI/MiniMax-M3",
         "moondream/moondream3.1-9B-A2B",
-        "deepseek-ai/DeepSeek-V3",
         "Qwen/Qwen3-14B",
         "Qwen/Qwen3-30B-A3B",
         "Qwen/Qwen3.5-27B",
@@ -147,9 +147,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 221.54,
+      "latency_ms": 209.31,
       "models_found": 0,
-      "last_probe": "2026-11-24T20:00:12.298766+00:00",
+      "last_probe": "2026-11-24T21:00:13.174155+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -157,16 +157,14 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 72.12,
-      "models_found": 32,
-      "last_probe": "2026-11-24T20:00:07.294052+00:00",
+      "latency_ms": 74.24,
+      "models_found": 30,
+      "last_probe": "2026-11-24T21:00:08.147099+00:00",
       "models": [
         "bigcode/starcoder2-15b",
         "fastino/gliner2-pii",
         "google/gemma-3-12b-it",
         "google/gemma-3-4b-it",
-        "google/gemma-4-31b-it",
-        "meta/muse-glimmer-30b",
         "minimaxai/minimax-m3.1-flash",
         "mistralai/mistral-large-4-1t-a52b",
         "moonshotai/kimi-k3.1-pro",
@@ -200,9 +198,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 109.5,
+      "latency_ms": 80.5,
       "models_found": 1,
-      "last_probe": "2026-11-24T20:00:14.034939+00:00",
+      "last_probe": "2026-11-24T21:00:14.900095+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -212,9 +210,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 107.71,
+      "latency_ms": 147.94,
       "models_found": 11,
-      "last_probe": "2026-11-24T20:00:02.413069+00:00",
+      "last_probe": "2026-11-24T21:00:03.232720+00:00",
       "models": [
         "inclusionai/ling-3.2-flash:free",
         "baidu/ernie-5.5-flash-preview:free",
@@ -235,6 +233,6 @@
   "summary": {
     "total_providers": 8,
     "live_providers": 4,
-    "total_models": 146
+    "total_models": 144
   }
 }
