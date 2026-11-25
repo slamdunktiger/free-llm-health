@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T00:00:17.218393+00:00",
+  "generated_at": "2026-11-25T01:00:17.738136+00:00",
   "providers": [
     {
       "provider_id": "cerebras_free",
       "status_code": 403,
-      "latency_ms": 124.22,
+      "latency_ms": 108.64,
       "models_found": 0,
-      "last_probe": "2026-11-25T00:00:06.356691+00:00",
+      "last_probe": "2026-11-25T01:00:06.390436+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 403: Forbidden"
@@ -14,9 +14,9 @@
     {
       "provider_id": "github_models",
       "status_code": 0,
-      "latency_ms": 234.94,
+      "latency_ms": 216.5,
       "models_found": 0,
-      "last_probe": "2026-11-25T00:00:09.677280+00:00",
+      "last_probe": "2026-11-25T01:00:09.653338+00:00",
       "models": [],
       "is_live": false,
       "error": "Expecting value: line 1 column 1 (char 0)"
@@ -24,9 +24,9 @@
     {
       "provider_id": "groq_free",
       "status_code": 401,
-      "latency_ms": 89.52,
+      "latency_ms": 130.91,
       "models_found": 0,
-      "last_probe": "2026-11-25T00:00:04.742233+00:00",
+      "last_probe": "2026-11-25T01:00:04.719903+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -34,9 +34,9 @@
     {
       "provider_id": "huggingface",
       "status_code": 200,
-      "latency_ms": 118.81,
-      "models_found": 102,
-      "last_probe": "2026-11-25T00:00:11.459135+00:00",
+      "latency_ms": 116.09,
+      "models_found": 104,
+      "last_probe": "2026-11-25T01:00:11.384445+00:00",
       "models": [
         "thinkingmachines/Inkling-2-Mini",
         "tencent/Hy4-flash",
@@ -46,6 +46,7 @@
         "thinkingmachines/Inkling-2-Small",
         "tencent/Hy4",
         "moonshotai/Kimi-K3.1-Pro",
+        "Qwen/Qwen3.8-Flash-Next",
         "LiquidAI/LFM3-1.7B",
         "meta-llama/Llama-3.1-8B-Instruct",
         "meta-llama/Llama-3.2-3B-Instruct",
@@ -100,7 +101,6 @@
         "XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
         "Qwen/Qwen2.5-72B-Instruct",
         "Sao10K/L3-8B-Lunaris-v1",
-        "google/gemma-3-12b-it",
         "dphn/Dolphin-Mistral-24B-Venice-Edition",
         "moonshotai/Kimi-K2.5",
         "Qwen/Qwen3.5-27B",
@@ -113,9 +113,11 @@
         "Qwen/Qwen3.5-397B-A17B",
         "meta-models/Muse-Spark-Open-816B-A42B",
         "meta-llama/Llama-3.1-70B-Instruct",
+        "google/gemma-3-12b-it",
         "meta-llama/Llama-4-Scout-17B-16E-Instruct",
         "Qwen/Qwen3-235B-A22B-Instruct-2507",
         "Qwen/Qwen3-235B-A22B-Thinking-2507",
+        "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "deepseek-ai/DeepSeek-V3.1",
         "openai/gpt-oss-safeguard-20b",
         "Qwen/Qwen3-VL-30B-A3B-Instruct",
@@ -147,9 +149,9 @@
     {
       "provider_id": "mistral",
       "status_code": 401,
-      "latency_ms": 220.17,
+      "latency_ms": 264.45,
       "models_found": 0,
-      "last_probe": "2026-11-25T00:00:13.120768+00:00",
+      "last_probe": "2026-11-25T01:00:13.023202+00:00",
       "models": [],
       "is_live": false,
       "error": "HTTP Error 401: Unauthorized"
@@ -157,9 +159,9 @@
     {
       "provider_id": "nvidia_nim",
       "status_code": 200,
-      "latency_ms": 78.46,
+      "latency_ms": 115.68,
       "models_found": 30,
-      "last_probe": "2026-11-25T00:00:08.040640+00:00",
+      "last_probe": "2026-11-25T01:00:08.023308+00:00",
       "models": [
         "bigcode/starcoder2-15b",
         "fastino/gliner2-pii",
@@ -198,9 +200,9 @@
     {
       "provider_id": "openrouter_chat",
       "status_code": 200,
-      "latency_ms": 95.38,
+      "latency_ms": 1063.12,
       "models_found": 1,
-      "last_probe": "2026-11-25T00:00:14.936304+00:00",
+      "last_probe": "2026-11-25T01:00:14.795345+00:00",
       "models": [
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
@@ -210,9 +212,9 @@
     {
       "provider_id": "openrouter_free",
       "status_code": 200,
-      "latency_ms": 262.35,
+      "latency_ms": 737.84,
       "models_found": 11,
-      "last_probe": "2026-11-25T00:00:02.925836+00:00",
+      "last_probe": "2026-11-25T01:00:02.431280+00:00",
       "models": [
         "inclusionai/ling-3.2-flash:free",
         "baidu/ernie-5.5-flash-preview:free",
@@ -233,6 +235,6 @@
   "summary": {
     "total_providers": 8,
     "live_providers": 4,
-    "total_models": 144
+    "total_models": 146
   }
 }
